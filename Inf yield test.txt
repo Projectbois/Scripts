@@ -8615,7 +8615,6 @@ addcmd('antiblob', {'antiblob'}, function(args, speaker)
             end
         end
     end
-
     if not (args[1] and tostring(args[1]) == 'nonotify') then notify('Anti Blob Kick', 'Anti Blob Kick is enabled') end
 end)
 
